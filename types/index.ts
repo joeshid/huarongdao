@@ -8,7 +8,7 @@ export interface Block {
     width: number;
     height: number;
     position: Position;
-    type: 'caocao' | 'general' | 'soldier';
+    type: 'caocao' | 'zhangfei' | 'guanyu' | 'bing1' | 'bing2' | 'bing3' | 'bing4' | 'huangzhong' | 'zhaoyun' | 'machao';
     name: string;
     image?: any; 
 }

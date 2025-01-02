@@ -22,15 +22,15 @@ const initialBlocks: BlockType[] = [
         width: 1, 
         height: 2, 
         position: { x: 0, y: 0 }, 
-        type: 'general', 
-        name: '张辽'
+        type: 'zhangfei', 
+        name: '张飞'
     },
     { 
         id: 'gy', 
         width: 1, 
         height: 2, 
         position: { x: 3, y: 0 }, 
-        type: 'general', 
+        type: 'guanyu', 
         name: '关羽'
     },
     { 
@@ -38,7 +38,7 @@ const initialBlocks: BlockType[] = [
         width: 1, 
         height: 1, 
         position: { x: 0, y: 2 }, 
-        type: 'soldier', 
+        type: 'bing1', 
         name: '兵1'
     },
     { 
@@ -46,7 +46,7 @@ const initialBlocks: BlockType[] = [
         width: 1, 
         height: 1, 
         position: { x: 1, y: 2 }, 
-        type: 'soldier', 
+        type: 'bing2', 
         name: '兵2'
     },
     { 
@@ -54,7 +54,7 @@ const initialBlocks: BlockType[] = [
         width: 1, 
         height: 1, 
         position: { x: 2, y: 2 }, 
-        type: 'soldier', 
+        type: 'bing3', 
         name: '兵3'
     },
     { 
@@ -62,7 +62,7 @@ const initialBlocks: BlockType[] = [
         width: 1, 
         height: 1, 
         position: { x: 3, y: 2 }, 
-        type: 'soldier', 
+        type: 'bing4', 
         name: '兵4'
     },
     { 
@@ -70,7 +70,7 @@ const initialBlocks: BlockType[] = [
         width: 2, 
         height: 1, 
         position: { x: 1, y: 3 }, 
-        type: 'general', 
+        type: 'huangzhong', 
         name: '黄忠'
     },
     { 
@@ -78,7 +78,7 @@ const initialBlocks: BlockType[] = [
         width: 1, 
         height: 2, 
         position: { x: 0, y: 3 }, 
-        type: 'general', 
+        type: 'zhaoyun', 
         name: '赵云'
     },
     { 
@@ -86,7 +86,7 @@ const initialBlocks: BlockType[] = [
         width: 1, 
         height: 2, 
         position: { x: 3, y: 3 }, 
-        type: 'general', 
+        type: 'machao', 
         name: '马超'
     }
 ];
@@ -96,7 +96,7 @@ export const Board: React.FC = () => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>华容道</Text>
+            {/* <Text style={styles.title}>华容道</Text> */}
             <View style={styles.board}>
                 <View style={styles.grid}>
                     {Array(6).fill(0).map((_, i) => (

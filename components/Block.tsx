@@ -120,8 +120,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 5,
-        borderWidth: 1,
-        borderColor: 'rgba(0,0,0,0.2)',
+        borderWidth: 2,
+        borderColor: '#F5F5DC', // 米色边框
         shadowColor: '#000',
         shadowOffset: {
             width: 0,
@@ -129,9 +129,12 @@ const styles = StyleSheet.create({
         },
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
-        elevation: 5,
+        elevation: 5, // Android上的阴影效果
     },
     blockText: {
+        position: 'absolute',
+        bottom: 5, // 距离底部5个单位
+        right: 5,  // 距离右侧5个单位
         color: '#fff',
         fontSize: 16,
         fontWeight: 'bold',

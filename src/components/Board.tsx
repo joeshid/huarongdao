@@ -10,7 +10,7 @@ const GRID_SIZE = Math.floor(Math.min(window.width / BOARD_WIDTH, window.height 
 
 const initialBlocks: BlockType[] = [
     { id: 'caocao', width: 2, height: 2, position: { x: 1, y: 0 }, type: 'caocao', name: '曹操' },
-    { id: 'zh', width: 1, height: 2, position: { x: 0, y: 0 }, type: 'general', name: '张辽' },
+    { id: 'zh', width: 1, height: 2, position: { x: 0, y: 0 }, type: 'general', name: '张飞' },
     { id: 'gy', width: 1, height: 2, position: { x: 3, y: 0 }, type: 'general', name: '关羽' },
     { id: 'mc1', width: 1, height: 1, position: { x: 0, y: 2 }, type: 'soldier', name: '兵1' },
     { id: 'mc2', width: 1, height: 1, position: { x: 1, y: 2 }, type: 'soldier', name: '兵2' },
