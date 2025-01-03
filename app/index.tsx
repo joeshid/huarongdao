@@ -5,7 +5,7 @@ import { Board } from '../components/Board';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>华容道</Text>
+      {/* <Text style={styles.title}>华容道</Text> */}
       <Board />
       <StatusBar style="auto" />
     </View>

@@ -96,7 +96,7 @@ export const Board: React.FC = () => {
 
     return (
         <View style={styles.container}>
-            {/* <Text style={styles.title}>华容道</Text> */}
+            <Text style={styles.title}>华容道</Text>
             <View style={styles.board}>
                 <View style={styles.grid}>
                     {Array(6).fill(0).map((_, i) => (
